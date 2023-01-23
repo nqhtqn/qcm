@@ -1,0 +1,153 @@
+/*connexion.php*/
+
+body{
+    background-color: lightgrey;
+}
+
+h1{
+    text-align: center;
+    padding: 8px 10px 8px 15px;
+}
+
+.connexion{
+    background-color: rgb(90, 90, 90);
+    width: 50%;
+    height: 400px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px 0px 20px 5px; 
+}
+
+.connexion label{
+    display: block; 
+    width: 100px;
+    float: left;
+    text-align: end;
+    padding: 0px 0px 0px 150px;
+    margin-right: 2px;
+}
+
+.connexion h3{
+    text-align: center;
+}
+
+.connexion input[type=submit]{
+    margin-top: 10px;
+    margin-left: 30%;
+    background-color: rgb(50, 50, 50);
+    border-radius: 10px;
+    color: white;
+    width: 40%;
+    height: 30px;
+    
+}
+
+/*inscription.php*/
+
+.inscription{
+    background-color: rgb(120, 120, 120);
+    align-items: right;
+    width: 40%;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 44%;
+    margin-left: 59%;
+}
+
+input[type=submit]{
+    margin-top: 10px;
+    margin-left: 35%;
+    background-color: rgb(50, 50, 50);
+    border-radius: 10px;
+    color: white;
+    width: 30%;
+    height: 30px;
+    
+}
+
+/*questions.php*/
+
+.nom{
+    padding: 5px;
+    border-style: groove;
+}
+
+li{
+    list-style-type: decimal-leading-zero;
+    list-style-position: inside;
+    text-align: center;
+
+}
+
+li li{
+    list-style-type: none;
+    text-align: left;
+}
+
+.question{
+    background-color: rgb(90, 90, 90);
+    height: auto;
+    padding: 10px;
+    margin: 20px auto;
+    border-radius: 20px;
+    width: 45%;
+}
+
+.deconnexion{
+    padding: 15px;
+    color: red;
+    text-align: center;
+
+}
+
+/*resultats.php*/
+
+.note{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(90, 90, 90);
+    padding: 20px;
+    width: 40%;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 30px;
+    text-align: center;
+    color: lightgrey;
+}
+
+.reponse{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.correction{
+    background-color: rgb(90, 90, 90);
+    padding: 20px;
+    width: 40%;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.vrai{
+    color: rgb(48, 165, 48);
+    padding-top: 5px;
+    padding-left: 30px;
+}
+
+.faux{
+    color: red;
+    padding-top: 5px;
+    padding-left: 30px;
+}
+
+.neutre{
+    padding-top: 5px;
+    padding-left: 30px;
+}
+
+.questionss{
+    color: lightgrey;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 4px;
+}
