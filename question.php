@@ -61,7 +61,7 @@ while ($ligne = mysqli_fetch_assoc($respre)) {
                 }
                 ?>
             </ul>
-            <input type="submit" value="Valider" name="bout">
+            <input type="submit" value="Valider" style="text-decoration: none;" name="bout">
             <div class="deconnexion">
                 <a href="deconnexion.php">
                     Deconnexion

@@ -32,7 +32,8 @@ if (isset($_POST["bout"])) {
 </head>
 
 <body>
-    <h1>Connexion</h1>
+    <h1>Bienvenue sur notre QCM !<br><br>
+    Veuillez vous connecter</h1>
     <hr><br>
 
     <div class="connexion">
